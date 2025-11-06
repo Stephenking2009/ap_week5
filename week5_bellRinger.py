@@ -1,20 +1,30 @@
 # Problem Set 1: Indexing and Slicing Strings
 # Basic Indexing:
 # Given the string magic = 'abracadabra',
+magic = 'abracadabra' 
 # a. Retrieve the 5th character.
+fifth_char = print(magic[4])
 # b. Retrieve the second to last character.
+second_to_last = print(magic[-2])
 # c. Find the first occurrence of the letter 'c'.
-
+first_occurence = print(magic.index('c'))
+last_a_index = print(magic.rindex('a'))
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
 # a. Extract the letters 'hij'.
+hij = print(alphabet.index('hij'))
+hij2 = print(alphabet[7:10])
 # b. Extract every second letter starting from 'a' to 'm'.
+m_index = print(alphabet.index('m'))
+every_second = print(alphabet[0:13:2])
 # c. Reverse the entire string using slicing.
-
+reversed_alphabet = print(alphabet[::-1])
 # Problem Set 2: Extracting Information
-# From Descriptions:
-# Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
-
+# From Descriptions:country can do for you — ask what you can do for your country. - John F. Kennedy"
+i_have_a_dream = 'And when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of Gods children, Black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual: Free at last. Free at last. Thank God almighty, we are free at last.'
+reversed_dream = print(i_have_a_dream[::-1])
+# Extract the name of the famous personality from the quote "Ask not what your 
 # Manipulating Words:
 # Given the string info = "Python is fun. Fun is good. Good is subjective.",
 # a. Extract the word 'subjective' without knowing its exact position.
