@@ -44,24 +44,36 @@ print(reversed_words)
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
-
+starwars = "MAY THE FORCE BE WITH YOU."
+lowercase = print(starwars.lower())
 # String Joining and Splitting:
 # Given the list motto = ["Make", "haste", "slowly."],
+motto = ["Make", "haste", "slowly."]
 # a. Convert the list into a single string.
+joined_motto = ' '.join(motto)
+print(joined_motto)
 # b. Now, split the string at every occurrence of the letter 'a'.
-
+split_motto = joined_motto.split('a')
+print(split_motto)
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
+sentence = "Life is what happens when you are busy making other plans."
 # a. Replace "busy" with "distracted".
+replaced_sentence = print(sentence.replace("busy", "distracted").replace("plans","mistakes"))
 # b. Replace "plans" with "mistakes".
 
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
-
+repeated_word = print("Iteration " * 7)
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
-
+word = "moonlight"
+quote = "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+word_in_quote = print(word in quote)
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
+phrase = "Supercalifragilisticexpialidocious"
+length_of_phrase = print(len(phrase))
+count_of_i = print(phrase.count('i'))
